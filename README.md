@@ -1,2 +1,3 @@
-# SysStudyProject
-学习小本本
+# 学习记录速查手册
+### 应用框架学习
+* model + viewModel + liveData + Databinding
