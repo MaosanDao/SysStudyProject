@@ -20,3 +20,8 @@ class KLazilyDCLSingleton private constructor() : Serializable {//private constr
     }
 }
 ```
+# Kotlin中无法解析空构造函数的问题
+```
+//解决kotlin无法解析空构造函数的问题
+implementation "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
+```
