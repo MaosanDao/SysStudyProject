@@ -21,6 +21,11 @@ class KLazilyDCLSingleton private constructor() : Serializable {//private constr
 }
 ```
 # Kotlin中无法解析空构造函数的问题
+### 出现问题
+```xml
+com.alibaba.fastjson.JSONException: default constructor not found
+```
+### 如何解决
 ```
 //解决kotlin无法解析空构造函数的问题
 implementation "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
